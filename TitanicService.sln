@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEAA8100-2DB2-43D2-9B03-E7E417C6A262}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C840890D-A163-4E20-9D4D-56927BF9F962}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TitanicService", "src\TitanicService\TitanicService.xproj", "{DB9B552E-AA25-4101-8D99-9EEE14E78AA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9B552E-AA25-4101-8D99-9EEE14E78AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9B552E-AA25-4101-8D99-9EEE14E78AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9B552E-AA25-4101-8D99-9EEE14E78AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9B552E-AA25-4101-8D99-9EEE14E78AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB9B552E-AA25-4101-8D99-9EEE14E78AA0} = {FEAA8100-2DB2-43D2-9B03-E7E417C6A262}
+	EndGlobalSection
+EndGlobal
