@@ -45,10 +45,11 @@ namespace TitanicService
                     }
                 };
 
-
-                const string apiKey = "Zzo/wtl7jk4PdxeJivOXzpnelCUBaLSiNTnHNjP1UXM2+kn8DyJjJbsK5smHxDZfrkk4lp4B1Be2zHU5uEFCkA==";
+                //введите свой apiKey
+                const string apiKey = "";
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-                client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/0ae14adb92ab448d9c08cf25c19db4f0/services/6e8b91505d004995a2046a2752b773ef/execute?api-version=2.0&details=true ");
+                //введите свой адрес сервиса
+                client.BaseAddress = new Uri("");
                 HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest);
 
                 if (response.IsSuccessStatusCode)
